@@ -1,22 +1,16 @@
-:root {
-    --darkBlue: #274472;
-    --midnightBlue: #41729F;
-    --blueGray: #5885AF;
-    --babyBlue: #C3E0E5;
-}
-
 .logo {
-    width: 5.25rem;
+    width: 8rem;
 }
 
 .navbar {
-    padding-left: 13rem;
-    padding-right: 13rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: var(--darkBlue);
+    opacity: .9;
 }
 
 nav a.nav-link {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.0035rem;
     cursor: pointer;   
 }
@@ -25,14 +19,14 @@ nav a.nav-link {
 .navbar-nav > li > a {
     text-transform: uppercase;
     color: white !important;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: .6rem;
+    margin-right: .6rem;
     border-top: 0.2rem solid var(--darkBlue);
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus, .navbar-nav > li > a:hover{
-    border-top: 0.2rem solid var(--blueGray);
-    color: var(--babyBlue) !important;
+    border-top: 0.2rem solid var(--lightGreen);
+    color: var(--lightGreen) !important;
 }
 
 .navbar-toggler {

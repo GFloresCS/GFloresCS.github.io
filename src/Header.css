@@ -1,0 +1,24 @@
+.header-wrapper {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--darkBlue);
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.header-info h1 {
+    border-bottom: 0.2rem solid var(--lightGreen);
+}
+
+.header-info .typed-text {
+    color: var(--lightGreen);
+}

@@ -1,0 +1,32 @@
+.about-wrapper {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-writing {
+    text-align: justify;
+}
+
+.about-writing a:link, .about-writing a:visited, .about-writing a:active{
+    color: white;
+    font-weight: 900;
+}
+
+.about-writing a:hover {
+    color: var(--midnightBlue);
+    background-color: white;
+}
+
+.about-picture {
+    display: flex;
+    justify-content: center;
+}
+
+.selfpicture {
+    border-radius: 1rem !important;
+}

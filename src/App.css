@@ -1,7 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+:root {
+  --darkBlue: #274472;
+  --midnightBlue: #41729F;
+  --blueGray: #5885AF;
+  --babyBlue: #C3E0E5;
+  --lightGreen: #00FF00;
+}
+
+/*default font size is 1.2rem for extra small screens (phones)*/
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  background-color: var(--midnightBlue) !important;
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+.section-heading {
+  border-bottom: 0.2rem solid var(--lightGreen);
+}
+
+/*when screen gets is greater than size (sm)all = 768 px increase the font size*/
+@media (min-width: 768px) {
+  body {
+    font-size: 1.6rem !important;
+  }
+}
+
+/*
+.main-body-info {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .App {
@@ -42,3 +71,4 @@ body {
     transform: rotate(360deg);
   }
 }
+*/
