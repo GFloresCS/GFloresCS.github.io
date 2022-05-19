@@ -1,0 +1,18 @@
+.experience-wrapper {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: var(--darkBlue);
+}
+
+.experience-info .tab-pane{
+    text-align: justify;
+    font-size: 1.35rem;
+    background-color: var(--midnightBlue);
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+.experience-places {
+    padding-top: .8rem;
+}
