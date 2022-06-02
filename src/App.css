@@ -8,12 +8,12 @@
   --lightGreen: #00FF00;
 }
 
-/*default font size is 1.2rem for extra small screens (phones)*/
+/*default font size is 1.3rem for extra small screens (phones)*/
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
   background-color: var(--midnightBlue) !important;
   color: white !important;
-  font-size: 1.2rem;
+  font-size: 1.3rem !important;
 }
 
 .section-heading {
