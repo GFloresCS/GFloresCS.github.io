@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Logo.png';
+import Logo from '../Logo.png';
 //Font awesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -7,9 +7,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light" role={"navigation"}>
-        <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="My logo."/></a>
+        <a className="navbar-brand" href="#"><img className="logo" src={Logo} alt="My logo."/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -18,19 +18,19 @@ const Navbar = () => {
                   <a className="nav-link" href="#">Home<span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">About</a>
+                  <a className="nav-link" href="#about-section">About</a>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">Tools</a>
+                  <a className="nav-link" href="#tools-section">Tools</a>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">Experience</a>
+                  <a className="nav-link" href="#experience-section">Experience</a>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">Projects</a>
+                  <a className="nav-link" href="#projects-section">Projects</a>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="#">Contact</a>
+                  <a className="nav-link" href="#contact-section">Contact</a>
               </li>
             </ul>
         </div>

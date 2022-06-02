@@ -4,8 +4,8 @@ import { faJava, faPython, faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, fa
 
 const MyTools = () => {
     return (
-        <div className="tools-wrapper container-fluid ps-4 pe-4 pe-md-5 ps-md-5">
-            <div className="tools-info row">        
+        <div className="tools-wrapper container-fluid ps-4 pe-4 pe-md-5 ps-md-5" id="tools-section">
+            <div className="tools-info px-md-5 row">        
                 <h2><span className="section-heading">My Skills and Tools</span></h2>
                 <p>
                     I've worked with different languages, technologies, and tools such as: 

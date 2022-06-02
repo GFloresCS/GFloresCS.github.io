@@ -5,8 +5,13 @@
     background-color: var(--darkBlue);
 }
 
+.experience-info {
+    display: flex;
+    justify-content: center;
+}
+
 .experience-info .tab-pane{
-    text-align: justify;
+    text-align: start;
     font-size: 1.35rem;
     background-color: var(--midnightBlue);
     padding-right: 1rem;
@@ -15,4 +20,32 @@
 
 .experience-places {
     padding-top: .8rem;
+}
+
+.tab-pane h3{
+    text-align: center;
+    color: var(--lightGreen);
+    justify-content: center;
+}
+
+.location {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.tab-pane {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.list-group-item.active {
+    background-color: var(--blueGray) !important;
+    border-color: white !important;
+}
+
+/*when screen gets is smaller than size (sm)all = 768 px increase the font size*/
+@media (max-width: 768px) {
+    .experience-wrapper {
+      font-size: 1.4rem !important;
+    }
 }
