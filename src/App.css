@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif !important;
   background-color: var(--midnightBlue) !important;
   color: white !important;
-  font-size: 1.3rem !important;
+  font-size: 1.25rem !important;
 }
 
 .section-heading {
@@ -23,7 +23,7 @@ body {
 /*when screen gets is greater than size (sm)all = 768 px increase the font size*/
 @media (min-width: 768px) {
   body {
-    font-size: 1.6rem !important;
+    font-size: 1.55rem !important;
   }
 }
 

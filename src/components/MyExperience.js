@@ -29,14 +29,17 @@ const MyExperience = () => {
                         <h3>Software Engineer <span className="location">at CSUN Mobile Computing Group</span></h3>
                         <ul>
                           <li>Developed an Android application to record, display, and analyze the gyroscope values of a smartphone using Android Studio as well as Firebase Cloud Storage to store the parsed data remotely.</li>
+                          <li>Carried out over 250 experiments for fine-tuning the software prototype to achieve an accuracy of 72%.</li>
                           <li>Presented software development reports during multiple two-week sprints to ensure 100% on time delivery of prototype.</li>
+                          <li>Worked with Dr. Nahapetian to construct 79-page thesis paper documenting the prototype analysis.</li>
                         </ul>
                       </div>
                       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                       <h3>Math Tutor <span className="location">at CSUN Math Department</span></h3>
                         <ul>
                           <li>Promoted productivity and learning by communicating with each student and adapting to how they learned best whether through visual or auditory explanations, or simpler examples.</li>
-                          <li>Reviewed student needs and difficulties for each upcoming lesson to develop tutoring plans with other tutors while working in the tutoring center and with professors while working as an in-class tutor.</li>
+                          <li>Reviewed student needs and difficulties for each upcoming lesson to develop tutoring plans with other tutors while working in the tutoring center as well as with professors while working as an in-class tutor.</li>
+                          <li>Listened to and properly explained all questions students who had doubts about their work as well as praised and encouraged them for asking questions.</li>
                         </ul>
                       </div>
                     </div>
