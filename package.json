@@ -2,7 +2,7 @@
   "name": "portfolio-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gflorescs.github.io/Portfolio",
+  "homepage": "https://GFloresCS.github.io/Portfolio",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
