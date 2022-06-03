@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer col-6 col-lg-2 order-lg-0">
-                    <a href="/#"><img className="logo" src={Logo} alt="My logo."/></a>
+                    <a href="#home"><img className="logo" src={Logo} alt="My logo."/></a>
                 </div>
                 <div className="footer-note col-6 col-lg-7 order-lg-1">
                     <p><a href="https://github.com/GFloresCS/Portfolio" target="_blank" rel="noopener noreferrer" alt="Github portfolio" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github portfolio">Designed and built by Gustavo Flores</a></p>
