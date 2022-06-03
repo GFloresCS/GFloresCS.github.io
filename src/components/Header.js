@@ -9,7 +9,9 @@ const Header = () => {
                 <h1>Gustavo Flores</h1>
                 <h3>I'm a software engineer who's loves learning as well as <Typed 
                         className="typed-text"
-                        strings={["teaching others.","self-driven.","helping others learn.","playing competitive video games.","playing with my dog Milo."]}
+                        strings={["teaching others.","improving my technical and communicative skills.", "thinking critically to solve challenging problems.", 
+                            "achieving the needs of the user.", "helping others learn.", "communicating effectively.",
+                            "playing competitive video games.","playing with my dog Milo."]}
                         typeSpeed={50}
                         backSpeed={20}
                         smartBackspace={true}

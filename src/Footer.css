@@ -3,6 +3,8 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: var(--darkBlue);
+    opacity: .85;
 }
 
 .contact-info {
@@ -19,6 +21,16 @@
     font-weight: 600;
 }
 
+.footer-note a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-note a:hover {
+    color: var(--lightGreen);
+    text-decoration: underline;
+}
+
 .social-media-list a{
     color: white;
 }
@@ -26,4 +38,12 @@
 .social-media-list a:hover {
     border-bottom: 0.2rem solid var(--lightGreen);
     color: var(--lightGreen);
+}
+
+.footer .logo {
+    border-bottom: 0.2rem solid var(--darkBlue);
+  }
+  
+.footer .logo:hover {
+    border-bottom: 0.2rem solid var(--lightGreen);
 }

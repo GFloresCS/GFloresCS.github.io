@@ -32,7 +32,7 @@ const MyProjects = () => {
                     </div>         
                     <div className="tools-button gap-3 row">
                         <button className="btn col-lg-4 btn-light" type="button" data-toggle="collapse" data-target="#collapse-keyboard" aria-expanded="false" aria-controls="collapseExample">More Info</button>
-                        <a className="btn col-lg-4 btn-light" href="https://github.com/GFloresCS/Gyroscope" target="_blank" rel="noopener noreferrer">View Here <FontAwesomeIcon icon={faArrowUpRightFromSquare}></FontAwesomeIcon></a>
+                        <a className="btn col-lg-4 btn-light" href="https://scholarworks.csun.edu/handle/10211.3/221904" target="_blank" rel="noopener noreferrer">View Here <FontAwesomeIcon icon={faArrowUpRightFromSquare}></FontAwesomeIcon></a>
                     </div>         
                     {/*More Info Card*/}
                     <div className="collapse" id="collapse-keyboard">

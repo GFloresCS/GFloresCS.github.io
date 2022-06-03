@@ -6,7 +6,7 @@
     padding-left: 5rem;
     padding-right: 5rem;
     background-color: var(--darkBlue);
-    opacity: .9;
+    opacity: .85;
 }
 
 nav a.nav-link {
@@ -33,15 +33,10 @@ nav a.nav-link {
     color:white !important;
 }
 
-/*
-.navbar-brand {
-    max-width: 6.25rem;
-    padding: 0 !important;
-    height: 6rem !important;
+.navbar .logo {
+    border-top: 0.2rem solid var(--darkBlue);
+  }
+  
+.navbar .logo:hover {
+    border-top: 0.2rem solid var(--lightGreen);
 }
-
-
-nav ul li {
-    text-transform: uppercase;
-}
-*/

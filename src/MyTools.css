@@ -1,6 +1,8 @@
 .tools-wrapper {
     position: relative;
     text-align: center;
+    background-color: var(--darkBlue);
+    padding-top: 2rem;
 }
 
 .tools-info .tools {

@@ -16,7 +16,7 @@
 }
 
 .project-description {
-    font-size: 1.65rem;
+    font-size: 1.4rem;
     background-color: var(--midnightBlue);
     padding-right: 1rem;
     border-radius: 1rem;
@@ -26,10 +26,6 @@
 
 .project-description p {
     margin: 0;
-}
-
-.tools {
-    align-items: center;
 }
 
 .tools-button {

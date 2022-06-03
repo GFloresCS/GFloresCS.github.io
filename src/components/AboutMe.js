@@ -4,14 +4,14 @@ import SelfPicture from "../PortfolioPicture.jpg";
 const AboutMe = () => {
     return (
         <div className="about-wrapper container-fluid ps-4 pe-4 pe-md-5 ps-md-5" id="about-section">
-            <div className="about-header px-md-5 col-md-6 col-lg-7 ms-auto">
+            <div className="about-header px-md-5  col-lg-7 ms-auto">
                 <h2><span className="section-heading">About Me</span></h2>
             </div>
             <div className="about-info info px-md-5 row">
-                <div className="about-picture col-md-6 col-lg-5">
+                <div className="about-picture  col-lg-5">
                     <img className="selfpicture img-fluid img-thumbnail" src={SelfPicture} alt="Myself."></img>
                 </div>
-                <div className="about-writing col-md-6 col-lg-7">
+                <div className="about-writing  col-lg-7">
                     <p>
                         I graduated with a B.S. and an M.S. in Computer Science from <a href="https://www.csun.edu/" target="_blank" rel="noopener noreferrer">California State University Northridge</a> and I'm seeking to improve my skills as a software engineer. 
                         I always strive to finish projects and assignments on time which means managing my schedule well, adapting to new tools, working consistently, and communicating with my team to answer any questions that they, or I, might have.

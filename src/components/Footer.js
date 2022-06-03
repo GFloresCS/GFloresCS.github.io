@@ -22,11 +22,11 @@ const Footer = () => {
                         <a href="https://twitter.com/GustavoFloresCS" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} alt="Twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></FontAwesomeIcon></a>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2 order-lg-0">
-                    <a className="logo" href="#"><img className="logo" src={Logo} alt="My logo."/></a>
+                <div className="footer col-6 col-lg-2 order-lg-0">
+                    <a href="/#"><img className="logo" src={Logo} alt="My logo."/></a>
                 </div>
                 <div className="footer-note col-6 col-lg-7 order-lg-1">
-                    <p>Designed and built by Gustavo Flores</p>
+                    <p><a href="https://github.com/GFloresCS/Portfolio" target="_blank" rel="noopener noreferrer" alt="Github portfolio" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Github portfolio">Designed and built by Gustavo Flores</a></p>
                 </div>
             </div>
         </div>
